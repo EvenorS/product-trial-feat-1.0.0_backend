@@ -1,4 +1,6 @@
 
+# Projet de gestion de produits réalisé avec Java Spring boot / Angular
+
 # Configuration
 
 - Veuillez modifier si besoin le fichier application.properties qui se situe dans le répertoire: '/backend/src/main/resources'
@@ -10,7 +12,7 @@
 
 # Backend server
 
-## Prè-requis
+## Prérequis
 
 - Java 17 installation via : 'https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html'
 - Maven installation via : 'https://maven.apache.org/install.html' (vérifiez que 'mvn --version' fonctionne)
@@ -35,7 +37,7 @@ Vous pouvez maintenant utiliser les api de ce serveur via le serveur Frontend
 Vous trouverez des screenshots validant le fonctionnant du projet dans le dossier  'API_tests'
 
 
-## ---------------------------------------------------------------------------------------------------- ##
+## ------------------------------------------------------------------------------------- ##
 
 
 ## Frontend server
