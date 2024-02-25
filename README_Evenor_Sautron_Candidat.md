@@ -1,5 +1,5 @@
 
-### Configuration
+# Configuration
 
 - Veuillez modifier si besoin le fichier application.properties qui se situe dans le répertoire: '/backend/src/main/resources'
 - Par défaut, la base de données est mySQL, configuré sur `http://localhost:3306/test` où test est le schéma. 
@@ -8,14 +8,14 @@
 - ATTENTION l'application va supprimer la table products à chaque lancement ! Une nouvelle table avec des données est ensuite créée
 
 
-### Backend server
+# Backend server
 
-# Prè-requis
+## Prè-requis
 
 - Java 17 installation via : 'https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html'
 - Maven installation via : 'https://maven.apache.org/install.html' (vérifiez que 'mvn --version' fonctionne)
 
-# Lancement du serveur
+## Lancement du serveur
 
 - Allez dans le dossier '/back' avec un terminal de commande shell
 - éxecutez ces 2 commandes (la première est facultative par la suite, car la deuxième l'inclus):
@@ -27,7 +27,7 @@ $ mvn package
 
 $ java -jar target/spring-boot-0.0.1-SNAPSHOT.jar
 
-## Conclusion
+# Conclusion
 
 Vous pouvez maintenant utiliser les api de ce serveur via le serveur Frontend 
 (Si vous avez changer le port par défaut, il faut modifier la variable backEndPort dans le fichier products.service.ts qui se situe dans le dossier '\front\src\app\products')
